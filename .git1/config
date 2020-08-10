@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "CakeBlog"]
+	url = https://github.com/stst5821/CakeBlog.git
+	fetch = +refs/heads/*:refs/remotes/CakeBlog/*
+[remote "origin"]
+	url = git@github.com:stst5821/CakeBlog.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
